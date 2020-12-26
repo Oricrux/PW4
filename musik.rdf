@@ -1,0 +1,150 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www/w3/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/">
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Musik">
+    <rdfs:label> Musik </rdfs:label>
+    <rdfs:comment>  Musik adalah suara yang disusun demikian rupa sehingga mengandung irama, lagu, dan keharmonisan terutama suara yang dihasilkan dari alat-alat yang dapat menghasilkan bunyi-bunyian.
+                    Walaupun musik adalah sejenis fenomena intuisi, untuk mencipta, memperbaiki dan mempersembahkannya adalah suatu bentuk seni.
+                    Mendengar musik adalah sejenis hiburan. Musik adalah sebuah fenomena yang sangat unik yang bisa dihasilkan oleh beberapa alat musik.
+    </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Musik#Sejarah">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Musik"/>
+    <rdfs:label> Sejarah Musik </rdfs:label>
+    <rdfs:comment>  Musik dikenal sejak kehadiran manusia modern Homo Sapiens yakni sekitar 180.000 hingga 100.000 tahun yang lalu.
+                    Tidak ada yang tahu kapan manusia mulai mengenal seni dan musik. Dari penemuan arkeologi pada lokasi-lokasi seperti pada benua Afrika,
+                    sekitar 180.000 tahun hingga 100.000 tahun lalu telah ada perubahan evolusi pada otak manusia.
+                    Dengan otak yang lebih pintar dari hewan, manusia merancang pemburuan yang lebih terarah sehingga bisa memburu hewan yang besar.
+                    Dengan kemampuan otak seperti ini, manusia bisa berpikir lebih jauh hingga di luar nalar dan menggunakan imajinasi dan spiritual.
+                    Bahasa untuk berkomunikasi telah terbentuk di antara manusia. Dari bahasa dan ucapan sederhana untuk tanda bahaya dan memberikan nama-nama hewan,
+                    perlahan-lahan beberapa kosakata muncul untuk menamakan benda dan memberikan nama panggilan untuk seseorang.
+    </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Genre_musik">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Musik"/>
+    <rdfs:label> Genre Musik </rdfs:label>
+    <rdfs:comment>  Genre musik adalah pengelompokan musik sesuai dengan kemiripannya satu sama lain. Musik juga dapat dikelompokan sesuai dengan kriteria lain, 
+                    misalnya geografi. Sebuah genre dapat didefinisikan oleh teknik musik, gaya, konteks, dan tema musik.
+    </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Album">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Musik"/>
+    <rdfs:label> Album </rdfs:label>
+    <rdfs:comment>  Album atau album rekaman adalah suatu koleksi audio atau musik yang didistribusikan untuk publik.
+                    Cara paling umum adalah melalui distribusi niaga, walaupun sering pula didistribusikan langsung pada suatu konser atau melalui situs web.
+                    Secara umum, suatu rangkaian lagu dianggap sebagai suatu album jika memiliki susunan daftar lagu yang konsisten, 
+                    kadang dengan perbedaan kecil atau lagu tambahan pada beberapa daerah, atau jika album tersebut dirilis ulang pada waktu yang berbeda.
+    </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Kategori:Album_K-pop">
+    <rdfs:label> Contoh Musik (Album) Korea </rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Made_(album_Big_Bang)">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Kategori:Album_K-pop"/>
+    <rdfs:label> MADE </rdfs:label>
+    <dbpprop-id:artist> Big Bang </dbpprop-id:artist>
+    <dbpprop-id:genre> Dance-pop, K-pop, hip hop </dbpprop-id:genre>
+    <dbpprop-id:label> YG Entertainment </dbpprop-id:label>
+    <dbpprop-id:totalLength> 40:53 </dbpprop-id:totalLength>
+    <dbpedia-owl:producer> Big Bang </dbpedia-owl:producer>
+    <dbpedia-owl:releaseDate> 12 Desember 2016 </dbpedia-owl:releaseDate>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Welcome_Back_(album_iKon))">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Kategori:Album_K-pop"/>
+    <rdfs:label> Welcome Back </rdfs:label>
+    <dbpprop-id:artist> iKON </dbpprop-id:artist>
+    <dbpprop-id:genre> K-pop, hip hop, dance-pop </dbpprop-id:genre>
+    <dbpprop-id:label> YG Entertainment </dbpprop-id:label>
+    <dbpprop-id:totalLength> 40:34 </dbpprop-id:totalLength>
+    <dbpedia-owl:producer> B.I </dbpedia-owl:producer>
+    <dbpedia-owl:releaseDate> 24 Desember 2015 </dbpedia-owl:releaseDate>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Kategori:Musik_di_Amerika_Serikat">
+    <rdfs:label> Contoh Musik (Album) Amerika Serikat </rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="https://en.wikipedia.org/wiki/How_I%27m_Feeling">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Kategori:Musik_di_Amerika_Serikat"/>
+    <rdfs:label> How I'm Feeling </rdfs:label>
+    <dbpprop-id:artist> Lauv </dbpprop-id:artist>
+    <dbpprop-id:genre> Pop </dbpprop-id:genre>
+    <dbpprop-id:label> AWAL </dbpprop-id:label>
+    <dbpprop-id:totalLength> 66:21 </dbpprop-id:totalLength>
+    <dbpedia-owl:producer> Lauv, LANY, Mike Crossey, Johan Carlsson </dbpedia-owl:producer>
+    <dbpedia-owl:releaseDate> 6 Maret 2020 </dbpedia-owl:releaseDate>
+</owl:Class>
+
+<owl:Class rdf:about="https://en.wikipedia.org/wiki/Wonder_(Shawn_Mendes_album)">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Kategori:Musik_di_Amerika_Serikat"/>
+    <rdfs:label> Wonder </rdfs:label>
+    <dbpprop-id:artist> Shawn Mendes </dbpprop-id:artist>
+    <dbpprop-id:genre> Pop </dbpprop-id:genre>
+    <dbpprop-id:label> Island </dbpprop-id:label>
+    <dbpprop-id:totalLength> 39:58 </dbpprop-id:totalLength>
+    <dbpedia-owl:producer> Shawn Mendes, Kid Harpoon, Frank Dukes, John Ryan </dbpedia-owl:producer>
+    <dbpedia-owl:releaseDate> 4 Desember 2020 </dbpedia-owl:releaseDate>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Kategori:Musik_di_Jepang">
+    <rdfs:label> Contoh Musik (Album) Jepang </rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/1830m">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Kategori:Musik_di_Jepang"/>
+    <rdfs:label> 1830m </rdfs:label>
+    <dbpprop-id:artist> AKB48 </dbpprop-id:artist>
+    <dbpprop-id:genre> J-pop </dbpprop-id:genre>
+    <dbpprop-id:label> King Records Japan </dbpprop-id:label>
+    <dbpprop-id:totalLength> 148:23 </dbpprop-id:totalLength>
+    <dbpedia-owl:producer> Yasushi Akimoto </dbpedia-owl:producer>
+    <dbpedia-owl:releaseDate> 15 Agustus 2012 </dbpedia-owl:releaseDate>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Buono!2">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Kategori:Musik_di_Jepang"/>
+    <rdfs:label> Buono!2 </rdfs:label>
+    <dbpprop-id:artist> Buono! </dbpprop-id:artist>
+    <dbpprop-id:genre> J-pop </dbpprop-id:genre>
+    <dbpprop-id:label> Pony Canyon </dbpprop-id:label>
+    <dbpprop-id:totalLength> 51:54 </dbpprop-id:totalLength>
+    <dbpedia-owl:releaseDate> 11 Februari 2009 </dbpedia-owl:releaseDate>
+</owl:Class>
+
+<owl:Class rdf:about="https://id.wikipedia.org/wiki/Kategori:Musik_di_Indonesia">
+    <rdfs:label> Contoh Musik (Album) Indonesia </rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="https://en.wikipedia.org/wiki/Lexicon_(Isyana_Sarasvati_album)">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Kategori:Musik_di_Indonesia"/>
+    <rdfs:label> LEXICON </rdfs:label>
+    <dbpprop-id:artist> Isyana Sarasvati </dbpprop-id:artist>
+    <dbpprop-id:genre> Neo classic, progressive rock </dbpprop-id:genre>
+    <dbpprop-id:label> Sony Music Entertainment </dbpprop-id:label>
+    <dbpprop-id:totalLength> 33:12 </dbpprop-id:totalLength>
+    <dbpedia-owl:producer> Isyana Sarasvati, Gerald Situmorang, Kenan Loui Widjaja </dbpedia-owl:producer>
+    <dbpedia-owl:releaseDate> 29 November 2019 </dbpedia-owl:releaseDate>
+</owl:Class>
+
+<owl:Class rdf:about="https://en.wikipedia.org/wiki/The_Sailor_(Rich_Brian_album)">
+    <rdfs:subClassOf rdf:resource="https://id.wikipedia.org/wiki/Kategori:Musik_di_Indonesia"/>
+    <rdfs:label> The Sailor </rdfs:label>
+    <dbpprop-id:artist> Rich Brian </dbpprop-id:artist>
+    <dbpprop-id:genre> Alternative hip hop </dbpprop-id:genre>
+    <dbpprop-id:label> 88rising, 12Tone </dbpprop-id:label>
+    <dbpprop-id:totalLength> 44:00 </dbpprop-id:totalLength>
+    <dbpedia-owl:releaseDate> 26 July 2009 </dbpedia-owl:releaseDate>
+</owl:Class>
+</rdf:RDF>
